@@ -1,0 +1,1554 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.wrapper
+{
+    width: 1150px;
+    margin: auto;
+}
+.main0
+{
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(ti001.jpeg);
+    background-position:center;
+    background-size: cover;
+    width:100%;
+    height: 80vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+/*This is the navigation Section*/
+.navigation1
+{
+    float: right;
+    margin-right: 2%;
+    list-style: none;
+    margin-top: 39px;
+    margin-left: 18%;
+    
+}
+.navigation1 li
+{
+    display: inline-block;
+    padding: 10px;
+    
+}
+.navigation1 li a
+{
+    color: white;
+    border-radius: 15px;
+    font-family: 'poppins';
+    text-decoration: none;
+    border: 2px solid white;
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 17px;
+}
+.navigation1 li a:hover
+{
+    background:rgba(255,255,255,.2);
+    color:white;
+    border-radius: 20px;
+}
+.navigation1 li a:active
+{
+    color: black;
+    background-color: white;
+}
+@media screen and (max-width:500px)
+{
+    .navigation1
+    {
+        margin-bottom: 30px;
+    }
+    .navigation1 li
+    {
+        margin-top: 10px;
+    }
+}
+/*Beginning of the content of the website*/
+.content
+{
+    width: auto;
+    margin: 275px 100px;
+    height: 300px;
+    text-align: left;
+    position: absolute;
+}
+.content h1
+{
+    font-size: 60px;
+    color: aliceblue;
+    font-family: didot;
+    margin-top: 10%;
+}
+@media screen and (max-width:500px)
+{
+    .content .h1home
+    {
+        font-size: 40px;
+    }
+}
+
+.turtpop
+{
+    height: 150px;
+    width: auto;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+@media screen and (max-width:610px)
+{
+    .turtpop
+    {
+    height: 100px;
+    width: auto;
+    border-radius: 25px;
+    margin-top: 40px;
+    }
+}
+.content p
+{
+    font-size: 16.5px;
+    color: aliceblue;
+    margin: 2px;
+    font-family: didot;
+}
+/*The Footer of the webiste starts here*/
+footer
+{
+    width: 100vw;
+    padding-top: 5px;
+    background: #152238;
+    height: auto;
+    color: #fff;
+    font-family: "Open Sans";
+}
+.turtlefeet
+{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.turtlefeet h3
+{
+    text-transform: capitalize;
+    font-weight: 400;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.8rem;
+}
+.turtlefeet p
+{
+    font-size: 14px;
+    max-width: 500px;
+    line-height: 28px;
+    margin: 10px auto;
+}
+
+
+.turttoes
+{
+    background: black;
+    padding:20px 0;
+    text-align: center;
+    width:100vw;
+}
+.turttoes p
+{
+    word-spacing: 2px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.slogos
+{
+    display: flex;
+    margin: 10px;
+    align-content: center;
+    margin-left: 45%;
+}
+.slogos img
+{
+    padding: 10px;
+    height: 25px;
+    width: auto;
+}
+
+@media screen and (max-width:610px)
+{
+    .turtlefeet p
+    {
+        width: 70%;
+    }
+    .slogos
+    {
+        margin-left: 35%;
+    }
+}
+.slogo 
+{
+    margin-left: 2%;
+}
+
+/*The Footer of the webiste ends here*/
+button
+{
+    width: 250px;
+    padding: 12px 2px;
+    text-align: center;
+    margin:10px 4px;
+    border-radius: 25px;
+    font-weight: none;
+    background: rgba(255,255,255,.2);
+    color: white;
+    cursor: pointer;
+    font-family: Arial;
+    font-weight: bolder;
+    border: 2px solid var(--blue);
+}
+button:hover
+{
+    background: #152238;
+    color: white;
+}
+/*Now we're going to include the information sections which contains the 
+turtle population in Sri Lanka*/
+.population
+{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    padding-top: 40px;
+    font-family: arial;
+    margin-bottom: 5%;
+}
+
+.populationheading
+{
+    font-size: 30px;
+    font-weight: 600;
+    background-image: linear-gradient(90deg,#e67399,#f2a640);
+    background-position: bottom;
+    background-size: 30% 10%;
+    background-repeat: no-repeat;
+    color: black;
+    font-family: didot;
+}
+@media screen and (max-width:600px)
+{
+    .content .h1cat
+    {
+        font-size: 45px;
+    }
+}
+.tp
+{
+    color: #c72;
+}
+/*The Paragraphs were divided into two parts was to get a good angle bettwen the 
+gradient styles*/
+.sectionpop
+{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 16px;
+    background: rgba(255,255,255,.2);
+    border-radius: 20px;
+    padding: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    background: linear-gradient(360deg,#da4453,#89216b);
+    font-family: didot;
+}
+.sectionpop1
+{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 16px;
+    background: rgba(255,255,255,.2);
+    border-radius: 20px;
+    padding: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    background: linear-gradient(180deg,#da4453,#89216b);
+    font-family: didot;
+}
+
+.mainturtle
+{
+    height: 40%;
+    width: auto;
+    border-radius: 10px;
+    justify-content: auto;
+    margin-top: 3%;
+}
+.mainturtle:hover
+{
+    transform: scale(1.05);
+    z-index: 2;
+}
+.popone
+{
+    text-decoration: underline 3px rgba(243, 195, 74, 0.698);
+    font-weight: 400;
+}
+/*---Features---*/
+.features
+{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    padding-top: 2%;
+    font-family: arial;
+    margin-bottom: 5%;
+}
+.ft
+{
+    font-size: 30px;
+    font-weight: 600;
+    background-image: linear-gradient(90deg,#e67399,#f2a640);
+    background-position: bottom;
+    background-size: 30% 10%;
+    background-repeat: no-repeat;
+    color: black;
+    font-family: didot;
+}
+.fp
+{
+    color: #001b3a;
+    margin-top: 10px;
+    font-size: 16px;
+    background: rgba(255,255,255,.2);
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+/*Now we're going to include the information sections within 
+the website*/
+.subsection
+{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
+    font-family: arial;
+    background: linear-gradient(90deg,#82eefd,#022d36);
+    border-radius: 40px;
+}
+.sectionheadingone
+{
+    font-family: didot;
+    font-size: 30px;
+    font-weight: 600;
+    background-size: 30% 10%;
+    background-image: linear-gradient(90deg,#e67399,#f2a640);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    color: #000;
+}
+.sectionparaone
+{
+    color: #001b3a;
+    margin-top: 10px;
+    font-size: 16px;
+    background: rgba(255,255,255,.2);
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+/*Hello*/
+.infotab
+{
+    justify-content: space-between;
+    margin-top: 2.5%;
+    display: flex;
+    overflow-x: auto;
+}
+.turtle-col
+{   
+    box-sizing: border-box;
+    margin-bottom: 2%;
+    margin: 10px;
+    border-radius: 10px; 
+    background: rgba(255,255,255,.2);
+    padding: 20px 12px;
+}
+.turtle-col:hover
+{
+    transform: scale(1.05);
+    z-index: 2;
+}
+.turtle-col p
+{
+    color: black;
+    font-size: 14px;
+    margin-top: 2px;
+}
+.image1 
+{
+    margin-top: 10px;
+    height: 300px;
+    width: 240px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.threatsec
+{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    padding-top: 40px;
+    font-family: arial;
+    margin-bottom: 5%;
+}
+.threats
+{
+    font-family: didot;
+    font-weight: 600;
+    font-size: 30px;
+    background-image: linear-gradient(90deg,#e67399,#f2a640);
+    background-position: bottom;
+    background-size: 30% 10%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.sectionpop2
+{
+    line-height: 30px;
+    margin: 5px;
+    text-align: center;
+    background: linear-gradient(360deg,#da4453,#89216b);
+    padding: 20px;
+    color: white;
+    font-family: didot;
+    border-radius: 15px;
+    margin: 20px;
+}
+.primelist
+{
+    margin: auto;
+}
+.lith li
+{
+    font-weight: 200;
+    font-size: 15px;
+    background-color: aliceblue;
+    margin: auto;
+    line-height: 30px;
+}
+.litholli
+{
+    font-size: 20px;
+    text-decoration: underline red;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-weight: 700;
+    margin: auto;
+}
+/*Turtle Categories Webpage*/
+.main1
+{
+    width:100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(Ttbg.jpg);
+    background-position:center;
+    background-size: cover;
+    height: 80vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.content1
+{
+    position: absolute;
+    width: auto;
+    text-align: left;
+    margin-left: 28%;
+    margin-right: 10%;
+    margin-top: 400px;
+}
+.content1 h1
+{
+    font-size: 45px;
+    color: aliceblue;
+    font-family: didot;
+    margin-top: -15%;
+}
+.sectionTC
+{
+    display: flex;
+}
+@media screen and (max-width:600px)
+{
+    .sectionTC
+    {
+        display: inline-block;
+    }
+    .turtpara
+    {
+        text-align: center;
+        align-items: center;
+        margin-left: 10%;
+    }
+    .turtimg
+    {
+        padding: 20px;
+        margin-left: 10%;
+    }
+}
+
+.hawks
+{
+    font-size: 35px;
+    margin-top: 5%;
+    width: 40%;
+    margin-left: 30%;
+    background-size: 35% 10%;
+    background-image: linear-gradient(90deg,#e67399,#f2a640);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.hawksimg
+{
+    height: 200px;
+    width: auto;
+    border-radius: 25px;
+    margin-left: 13%;
+    margin-top: 25px;
+}
+@media screen and (max-width:610px)
+{
+    .hawksimg
+    {
+        height: 180px;
+        width: auto;
+        filter: brightness(100%);
+        border-radius: 15px;
+        margin-left: 15%;
+    }
+    .turtimg
+    {
+        height: 180px;
+        width: auto;
+        filter: brightness(100%);
+        border-radius: 15px;
+        margin-left: 15%;
+    }
+}
+.hawksp
+{
+    margin-left: 2%;
+    margin-right: 10%;
+    margin-top: 2%;
+    font-family: didot;
+    line-height: 30px;
+    font-size: 15px;
+}
+.turtimg
+{
+    height: 200px;
+    width: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 10%;
+    margin-top: 25px;
+}
+.sectionTCO
+{
+    display: flex;
+}
+.turtpara
+{
+    font-family: didot;
+    margin-left: 2%;
+    margin-right: 10%;
+    line-height: 30px;
+    font-size: 15px;
+    margin-top: 2%;
+}
+.emot
+{
+    text-decoration: underline rgb(253, 253, 0);
+}
+footer
+{
+    margin-top: 10%;
+}
+.gmap
+{
+    margin-left: 35%;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 10px;
+    width: 50%;
+    align-items: center;
+}
+/*The Turtle Category Table*/
+.turtdiv
+{
+    margin: 40px auto 0;
+    padding: 0 3.5%;
+}
+.turt
+{
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+.turt thead
+{
+    background: linear-gradient(90deg,#ee185f,#f28d40);
+}
+.turt thead tr th
+{
+    color: #fff;
+    vertical-align: 12px;
+    vertical-align: top;
+    font-weight: medium;
+    border: 1px solid black;
+    opacity: 1;
+    padding: 12px;
+    letter-spacing: 0.35px;
+    font-size: 14px;
+
+}
+.turt tfoot tr td
+{
+    vertical-align: top;
+    font-size: 14px;
+    font-weight: medium;
+    border: 1px solid black;
+    padding: 12px;
+    vertical-align: 12px;
+    opacity: 1;
+    letter-spacing: 0.35px;
+
+}
+.turt tbody tr td
+{
+    background-color: linear-gradient(90deg,#e67399,#f2a640);
+    border: 1px solid black;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    color: black;
+    padding: 8px;
+    text-align: center;
+    font-weight: normal;
+}
+.turt tbody tr td .btn
+{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    color: white;
+    line-height: 35px;
+    opacity: 1;
+    border-radius: 10px;
+    user-select: none;
+    background-color: #152238;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.turt tfoot tr td
+{
+    text-align: center;
+}
+.turt tfoot 
+{
+    color: var(--blue);
+}
+@media screen and (max-width:610px)
+{
+
+    .turt
+    {
+        margin-left: -8%;
+    }
+    .turt thead
+    {
+        display: none;
+    }
+    .turt, .turt tbody, .turt tr, .turt td, .turt tfoot
+    {
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
+    .turt tr
+    {
+        margin-bottom: 15px;
+    }
+    .turt tbody tr
+    {
+        text-align: right;
+        position: relative;
+    }
+    .turt td:before
+    {
+        text-align: left;
+        content:attr(data-label);
+        left: 0;
+        position:absolute;
+    }
+    .turt tfoot 
+    {
+        color: black;
+    }
+
+}
+/*Turtle Hatcheries in Hikkaduwa -> Start*/
+.main2
+{
+    width:100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)25%,rgba(0,0,0,0.5)25%),url(Untitled\ design-22.png);
+    background-position:center;
+    background-size: cover;
+    height: 60vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+@media screen and (max-width:600px)
+{
+    
+    .main2 .content1
+    {
+        margin-top: 22rem;
+        text-align: center;
+        margin-right: 10%;
+        margin-left: 10%;
+        font-size: 1rem;
+    }
+}
+.hikkasec1
+{
+    text-align: center;
+}
+.hikkahead
+{
+    font-family: didot;
+    font-weight: 600;
+    font-size: 30px;
+    background-image: linear-gradient(90deg,#e67399,#f2a640);
+    background-position: bottom;
+    background-size: 10% 10%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 25px;
+}
+.hikkapara
+{
+    font-family: didot;
+    margin-left: 5%;
+    margin-right: 10%;
+    line-height: 30px;
+    font-size: 15px;
+    margin-top: 2%;
+}
+.hikkamap
+{
+    border-radius: 10px;
+    display: flex;
+    margin-top: 10px;
+    width: 50%;
+    margin-right: 10%;
+    margin-left: 26%;
+}
+.turtparahikka
+{
+    font-family: didot;
+    margin-left: 5%;
+    margin-right: 10%;
+    line-height: 30px;
+    font-size: 15px;
+    margin-top: 2%;
+}
+.turtcards
+{
+    display: flex;
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+.cards
+{
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    position: relative;
+    flex-direction: column;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 4px solid #fff;
+    align-items: center;
+    box-shadow: 8px 15px 28px rgba(17, 103, 183, 0.5);
+    margin: 10px;
+    display: flex;
+}
+.cards img
+{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+/*Turtle Hatcheries in Hikkaduwa -> End*/
+.main3
+{
+    width:100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(Hikkaimg016.png);
+    background-position:center;
+    background-size: cover;
+    height: 60vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+@media screen and (max-width:500px)
+{
+    .main3
+    {
+        height: 70vh;
+    }
+    .main3 .content1 h1
+    {
+        text-align: left;
+        margin-right: 20%;
+    }
+    .logo1
+    {
+        background-image: url('./Schildkröte.png');
+        background-size: 100% 100%;
+        height: 200px;
+        width: 32%;
+        position: absolute;
+        top: -8%;
+        left: -2%;
+    }
+}
+@media screen and (max-width:600px)
+{
+    .content1
+    {
+        margin-top: 20rem;
+
+    }
+}
+.turtlethreats-1
+{
+   /* display: grid;
+    gap: 100px 50px;
+    position: relative;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 100px 50px;
+    align-items: center;*/
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(340px,auto));
+    gap: 100px 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.threatscontent
+{
+    position: relative;
+}
+.threatscontent img
+{
+    height: 280px;
+    will-change: filter;
+    width: auto;
+    filter: brightness(80%);
+    object-fit: cover;
+    border-radius: 15px;
+}
+.threatscontent h4
+{
+    color: white;
+    left: 15px;
+    position: absolute;
+    font-size: 30px;
+    bottom: 30px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: rgba(0, 0, 0, 0.371);
+    padding: 8px;
+    border-radius: 10px;
+}
+hr
+{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 80%;
+    margin-left: 10%;
+}
+/*Section 02 of Turtle Threats starts here*/
+.seagull
+{
+    display: flex;
+}
+.seapol h1
+{
+    font-family: didot;
+    font-weight: 500;
+    font-size: 40px;
+    /*background-image: linear-gradient(90deg,#e67399,#f2a640);
+    background-position: bottom;
+    background-size: 10% 10%;
+    background-repeat: no-repeat;*/
+    margin-top: 25px;
+    margin-left: 3%;
+    background: linear-gradient(45deg, #82eefd,#28b6c9);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10px;
+    color: #152238;
+}
+.seapol p
+{
+    font-family: didot;
+    margin-left: 5%;
+    margin-right: 10%;
+    line-height: 30px;
+    font-size: 15.5px;
+    margin-top: 5%;
+    text-align: left;
+    margin-left: 3%;
+}
+.seagull img
+{ 
+    height: 25%;
+    width: 25%;
+    margin-right: 5%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: -5%;
+}
+.threatone
+{
+    justify-content: space-between;
+    margin-top: 2.5%;
+    display: flex;
+}
+@media screen and (max-width:610px)
+{
+    .threatone
+    {
+        display: inline;
+    }
+}
+.tans
+{   
+    box-sizing: border-box;
+    margin-bottom: 2%;
+    margin: 10px;
+    background-color: #152238;
+    color: white;
+    padding: 20px 12px;
+    border-radius: 20px;
+}
+.tans h3
+{
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background-image: linear-gradient(90deg,#e67399,#f2a640);
+    background-position: bottom;
+    background-size: 30% 10%;
+    background-repeat: no-repeat;
+}
+.tans p
+{
+    color: black;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    background: rgba(255,255,255,.2);
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-left: 2px;
+    padding: 10px;
+}
+.sol01
+{
+    width: 250px;
+    padding: 12px 2px;
+    text-align: center;
+    margin:10px 4px;
+    border-radius: 25px;
+    background:orangered;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+}
+.sol01 a 
+{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width:610px)
+{
+    .sol01
+    {
+        margin-left: 20%;
+    }
+
+}
+
+.threatone0304 .tans h3
+{
+    background-size: 6% 10%;
+}
+.threatone0304 .tans p
+{
+    margin-top: 1%;
+}
+.thbtn
+{
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    border: #022d36 2px solid;
+    list-style: none;
+}
+.turtlethreatsbtn
+{
+    margin-top: 2%;
+    text-align: center;
+    align-items: center;
+}
+.turtlethreatsbtn a
+{
+    text-decoration: none;
+    border: 2px solid orangered;
+    color: white;
+    background: linear-gradient(135deg,rgb(0, 162, 255),rgb(0, 255, 157));
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 25px;
+    align-items: center;
+    text-align: center;
+}
+@media screen and (max-width:610px)
+{
+    .turtlethreatsbtn
+{
+    margin-top: 5%;
+    text-align: center;
+    align-items: center;
+
+}
+    .turtlethreatsbtn a
+{
+    text-decoration: none;
+    border: 2px solid orangered;
+    color: white;
+    background: linear-gradient(135deg,rgb(0, 162, 255),rgb(0, 255, 157));
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 25px;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+}
+}
+
+/*Start of the Purchase*/
+.main06
+{
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(Hikkaimg012.png);
+    background-position:center;
+    background-size: cover;
+    width:100%;
+    height: 70vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.contenthpod
+{
+    position: absolute;
+    width: auto;
+    text-align: left;
+    margin-left: 28%;
+    margin-right: 10%;
+    margin-top: 400px;
+}
+.contenthpod h1
+{
+    font-size: 60px;
+    color: aliceblue;
+    font-family: didot;
+    margin-top: -15%;
+}
+@media screen and (max-width:610px)
+{
+    .main06
+    {
+        height: 70vh;
+    }
+
+    .contenthpod h1
+    {
+        font-size: 45px;
+    }
+}
+
+
+
+@media screen and (max-width:600px)
+{
+    .content1 .headingpod
+    {
+        margin-top: 40px;
+        margin-left: 5%;
+    }
+}
+
+
+.contentpod p
+{
+    color: var(--blue);
+    text-align: left;
+}
+.contentpod button
+{
+    border: 2px solid white;
+    width: 200px;
+    padding: 12px 2px;
+    font-size: 15px;
+    text-decoration: none;
+}
+/*Section 01 of the Purchase or Donate webpage*/
+.pod-section1
+{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(340px,auto));
+    gap: 100px 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.pod-content
+{
+    position: relative;
+}
+.pod-content img
+{
+    height: 280px;
+    width: auto;
+    filter: brightness(100%);
+    border-radius: 15px;
+}
+.pod-content h4
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.pod-content p
+{
+    color: gray;
+    text-align: right;
+}
+.pod-content p em
+{
+    color: green;
+    font-style: italic;
+}
+.pod-content .ous em
+{
+    color: red;
+    font-style: italic;
+}
+.pod-content button
+{
+    height: 10px;
+    width: 80px;
+    color: black;
+    padding: 10px;
+}
+.pod-section1 h1
+{
+    font-family: didot;
+    font-weight: 500;
+    font-size: 40px;
+    background-image: linear-gradient(90deg,#e67399,#f2a640);
+    background-position: bottom;
+    background-size: 60% 3%;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    margin-left: 3%;
+    padding: 10px;
+    color: #152238;
+}
+.pod-section1 p
+{
+    color: gray;
+    font-size: 12px;
+    line-height: 25px;
+}
+/*Section 02 of the Website : Donate*/
+.pod-section2
+{
+}
+@media  screen and (max-width:500px) {
+    .pod-section2  h1
+    {
+        top: 30%;
+    }
+    
+}
+.pod-section2 h1
+{
+    font-family: didot;
+    font-weight: 500;
+    font-size: 40px;
+    background-image: linear-gradient(90deg,#e67399,#f2a640);
+    background-position: top;
+    background-size: 10% 4%;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    margin-left: 3%;
+    padding: 10px;
+    color: #152238;
+    text-align: center;
+}
+.pod-section2 h1 p
+{
+    color: gray;
+    font-size: 15px;
+}
+.pod-section2 fieldset
+{
+    background-color: aliceblue;
+}
+.pod-section2 form
+{
+    align-items: center;
+    text-align: center;
+}
+.pod-section2 form input
+{
+    margin: 20px;
+}
+.pod-section2 h2
+{
+    font-family: didot;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 3%;
+    padding: 10px;
+    color: #152238;
+    text-align: center;
+}
+.pod-section2 form .radiobtn
+{
+    margin: 20px;
+    color: #152238;
+    background: goldenrod;
+    border-radius: 30px;
+}
+/*About us page*/
+.main07
+{
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(Hikkaimg014.png);
+    background-position:center;
+    background-size: cover;
+    width:100%;
+    height: 60vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.contentau
+{
+    position: absolute;
+    width: auto;
+    text-align: center;
+    margin-left: 44%;
+    margin-right: 10%;
+    margin-top: 18%;
+    color: #fff;
+}
+.aboutus h1
+{
+    font-family: didot;
+    font-weight: 500;
+    font-size: 40px;
+    background-image: linear-gradient(90deg,#e67399,#f2a640);
+    background-position: bottom;
+    background-size: 20% 10%;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    padding: 10px;
+    color: #152238;
+    text-align: center;
+}
+.aboutus p
+{
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    align-items: center;
+    width: 60%;
+    background: linear-gradient(135deg,#417fb9,#28b6c9);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 18%;
+}
+.chief h1
+{
+    font-family: didot;
+    font-weight: 500;
+    font-size: 40px;
+    background-image: linear-gradient(90deg,#e67399,#f2a640);
+    background-position: bottom;
+    background-size: 20% 10%;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    padding: 10px;
+    color: #152238;
+    text-align: center;
+}
+.chief img
+{
+    height: 300px;
+    width: auto;
+    border-radius: 200px;
+    margin-left: 38%;
+    margin-top: 30px;
+}
+@media screen and (max-width:610px)
+{
+    .chief img
+    {
+        margin-left: 20%;
+    }
+}
+.chief h3
+{
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.chief p
+{
+    color: gray;
+    text-align: center;
+    align-items: center;
+    line-height: 30px;
+}
+.chief .aboutme
+{
+    color: #fff;
+    line-height: 30px;
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 14%;
+    background: linear-gradient(135deg,#417fb9,#28b6c9);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.turtleimages
+{
+    display: inline;
+    left: 20%;
+}
+.turtleimages img
+{
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    margin-left: 100px;
+    border-radius: 18px;
+}
+@media screen and (max-width:610px)
+{
+    .turtleimages
+    {
+        display: grid;
+    }
+    .imghead
+    {
+        font-size: 10px;
+        background-size: 5% 5%;
+        text-align: center;
+    }
+}
+.turtleimages h1
+{
+    font-family: didot;
+    font-weight: 500;
+    font-size: 40px;
+    background-image: linear-gradient(90deg,#e67399,#f2a640);
+    background-position: bottom;
+    background-size: 20% 10%;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    padding: 10px;
+    color: #152238;
+    text-align: center;
+}
+/*Other Turtle Hatcheries*/
+.main05
+{
+    width:100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(Turtleimg02.jpg);
+    background-position:center;
+    background-size: cover;
+    height: 109vh;
+}
+.contentoth
+{
+    position: absolute;
+    width: auto;
+    text-align: left;
+    margin-left: 28%;
+    margin-right: 10%;
+    margin-top: 300px;
+}
+.contentoth h1
+{
+    font-size: 45px;
+    color: aliceblue;
+    font-family: didot;
+    margin-top: -15%;
+}
+@media screen and (max-width: 600px)
+{
+    .contentoth h1
+    {
+        margin-top: 2rem;
+        text-align: center;
+        align-items: center;
+        margin-right: 4rem;
+    }
+}
+.content1 button
+{
+    border: 2px solid white;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+
+}
+.content1 a
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: aliceblue;
+    font-size: 15px;
+}
+/*Buy Tickets CSS style lines*/
+.main08
+{
+    width:100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(Turtleimgtickets001.jpeg);
+    background-position:center;
+    background-size: cover;
+    height: 65vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.contenttickets
+{
+    position: absolute;
+    width: auto;
+    text-align: left;
+    margin-left: 37%;
+    margin-top: 300px;
+}
+.contenttickets h1
+{
+    font-size: 65px;
+    color: aliceblue;
+    font-family: didot;
+    margin-top: -15%;
+}
+@media screen and (max-width: 600px)
+{
+    .contentoth h1
+    {
+        margin-top: 2rem;
+        text-align: center;
+        align-items: center;
+        margin-right: 4rem;
+    }
+}
+.content1 button
+{
+    border: 2px solid white;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+
+}
+.content1 a
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: aliceblue;
+    font-size: 15px;
+}
+.ticketsection
+{
+    text-align: center;
+    margin-top: 10px;
+}
+.ticketsection h1
+{
+    font-family: didot;
+    font-weight: 500;
+    font-size: 40px;
+    background-image: linear-gradient(90deg,#e67399,#f2a640);
+    background-position: bottom;
+    background-size: 15% 10%;
+    background-repeat: no-repeat;
+    margin-top: 18px;
+    margin-left: 3%;
+    padding: 10px;
+    color: #152238;
+}
+.ticketsection p
+{
+    color: gray;
+    margin-top: 15px;
+}
+.content1 h1
+{
+    margin-bottom: 20px;
+}
+.content1 a
+{
+    color: white;
+    background-color: #f2a640;
+    padding: 20px;
+    border-radius: 25px;
+    margin-left: 40%;
+}
+@media screen and (max-width:610px)
+{
+    .content1 a
+    {
+    margin-left: 2%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

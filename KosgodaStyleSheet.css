@@ -1,0 +1,163 @@
+
+.main04
+{
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(Kosgoda.jpeg);
+    background-position:center;
+    background-size: cover;
+    width:100%;
+    height: 60vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+@media screen and (max-width:600px)
+{
+    .main04 .content1
+    {
+        margin-top: 22rem;
+    }
+}
+/*The heading along with a simple animation*/
+.koshead
+{
+    font-family: didot;
+    font-weight: 600;
+    font-size: 45px;
+    background-image: linear-gradient(90deg,#e67399,#f2a640);
+    background-position: bottom;
+    background-size: 10% 10%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 25px;
+    animation-name: x;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes x
+{
+    25%
+    {
+        background: linear-gradient(90deg,#28b6c9,#28b6c9);
+        border-radius: 25px;
+        width: 50%;
+    }
+}
+.kosgoda p
+{
+    margin-top: 20px;
+    font-family: didot;
+    color: #000;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    width: 70%;
+    margin-left: 13%;
+}
+.kosgoda002
+{
+    margin-top: 20px;
+    width: 40%;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 30%;
+}
+.koshead02
+{
+    font-family: didot;
+    font-weight: 600;
+    font-size: 45px;
+    background-image: linear-gradient(90deg,#e67399,#f2a640);
+    background-position: bottom;
+    background-size: 10% 10%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 25px;
+}
+.kosgodaturt p
+{
+    margin-top: 20px;
+    font-family: didot;
+    color: #000;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    width: 70%;
+    margin-left: 13%;
+}
+.kosgodaimg
+{
+    margin-top: 20px;
+    width: 40%;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 30%;
+}
+.kh02
+{
+    display: flex;
+}
+.kosgodaturt01 p
+{
+    margin-top: 20px;
+    font-family: didot;
+    color: #000;
+    align-items: left;
+    line-height: 30px;
+    font-size: 15px;
+    width: 90%;
+    margin-left: 13%;
+}
+.kosgodaimg01
+{
+    margin-top: 20px;
+    width: 40%;
+    height: auto;
+    border-radius: 20px;
+    margin-right: 9%;
+    margin-left: 2%;
+}
+@media screen and (max-width:610px)
+{
+    .kosgodaimg01
+    {
+        width: 5rem;
+        height: auto;
+    }
+}
+.kosgodaturt
+{
+    background: linear-gradient(#e66465, #9198e5);
+    border-radius: 20px;
+}
+.kosgodaturt p
+{
+    background: rgba(255,255,255,.2);
+    padding: 20px;
+    border-radius: 20px;
+}
+.kosgodaturt01 ul
+{
+    margin-left: 15%;
+    line-height: 80px;
+    list-style: none;
+}
+.kosgodaturt01 ul li a 
+{
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(90deg,#28b6c9,#28b6c9);
+    padding: 20px;
+    border-radius: 20px;
+}
+/*Additional image added at the development stage*/
+.s1kosgoda02img
+{
+    width: 20%;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 40%;
+    margin-top: 2%;
+}

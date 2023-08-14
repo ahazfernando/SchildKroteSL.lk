@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book your Tickets/Payment Details</title>
+    <link rel="stylesheet" href="HomePageStyle01.css" type="text/css">
+    <link rel="icon" href="./turtle01.png" type="image/x-icon">
+    <link rel="stylesheet" href="payementdetails.css" type="text/css">
+</head>
+<body>
+    <div class="main08">
+        <!--This is where the Header Section starts for the Navigation bar-->
+            <div class ="contenttickets">
+                <h1>
+                 Details
+                </h1>
+            </div>
+        </div>
+        <section class="bookingbt">
+            <div class="bookingbtn">
+                <a href="#">Ticket(Dates)</a>  >
+                <a href="">Details</a>  >
+                <a href="" class="active">Payment</a>  >
+                <a href="confirmationpage.html">Confirmation</a>
+            </div>
+        </section>
+        <section class="ticketsection">
+            <div class="form">
+                <h2>Payment Details</h2>
+                <form id="paymentForm" class="paymentForm">
+                  <label for="cardNumber">Card Number:</label>
+                  <input type="text" id="cardNumber" required>
+            
+                  <label for="expiryDate">Expiry Date:</label>
+                  <input type="text" id="expiryDate" required placeholder="mm/yy">
+            
+                  <label for="ccvNumber">CVV Number:</label>
+                  <input type="text" id="ccvNumber" required maxlength="3">
+            
+                  <label for="userName">User Name:</label>
+                  <input type="text" id="userName" required>
+            
+                  <button id="confirmPaymentBtn" disabled>Confirm Payment</button>
+                </form>
+              </div>
+            
+              <script src="payementdetails.js"></script>
+        </section>
+        <footer>
+            <div class="turtlefeet">
+                <h3>
+                    <img src="Untitled design-21.png" alt="Logo" class="slogo"><br>
+                    Live . Discover . Relive
+                </h3>
+                <p>
+                    The island's sea turtle hatcheries work to preserve endangered turtle species. 
+                    We want to make our neighborhood Turtle Hatcheries accessible to everyone 
+                    who want to pause and appreciate what nature has to offer.
+                </p>
+            </div>
+            <div class="slogos">
+                <a href="https://www.instagram.com/ahazfernando/" target="_blank"><img src="Instagram01.png" alt="Instagram Logo"></a>
+                <a href="mailto:ahazfernando@gmail.com" target="_blank"><img src="Email01.png" alt="Email Logo"></a>
+                <a href="https://youtu.be/rJhtH0USo0E" target="_blank"><img src="youtube01.png" alt="Youtube Logo"></a>
+            </div>
+            <div class="turttoes">
+            <p>Copyright &copy;2023 Designed by Ahaz Fernando <span> the Island Boy</span></p>
+            </div>
+        </footer>
+        <script src="ticketsschildjs.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+:root
+{
+    --primary: #111;
+}
+.pdetials br
+{
+    margin-top: 20px;
+}
+.ticketsection
+{
+    display: inline-block;
+}
+.ticketsection form
+{
+    margin-left: 200px;
+}
+table
+{
+    margin: 50px;
+    border-radius: 25px;
+}
+table tr
+{
+    padding: 20px;
+
+}
+table th
+{
+    background-color: rgb(255, 191, 0);
+    padding: 8px;
+}
+table td
+{
+    padding: 8px;
+    border-radius: 25px;
+}
+.bookingbtn
+{
+    margin-top: 40px;
+    background: rgb(255, 191, 0);
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 40%;
+    padding: 20px;
+}
+.bookingbtn a
+{
+    text-decoration: none;
+    color: gray;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #111;
+}
+.bookingbtn .active
+{
+    color: blue;
+}
+.confirmationpg
+{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    padding: 40px;
+    border-radius: 25px;
+    margin: 5%;
+    width: 500px;
+    margin-left: 30%;
+}
+.confirmationpg h1
+{
+    margin: 40px;
+    margin-left: 10%;
+    text-align: center;
+}
+.confirmationpg p
+{
+    margin: 20px;
+    color: gray;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.confirmationpg a
+{
+    text-align: center;
+    margin-left: 32%;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 20px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+}
+@media screen and (max-width:610px)
+{
+    .confirmationpg
+    {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    padding: 40px;
+    border-radius: 25px;
+    margin: 5%;
+    width: 70%;
+    margin-left: 5%;
+    }
+    .confirmationpg a
+    {
+    margin-left: 15%;
+    }
+}

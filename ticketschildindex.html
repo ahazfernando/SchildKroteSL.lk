@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book your Ticket/Personal Details</title>
+    <link rel="stylesheet" href="HomePageStyle01.css" type="text/css">
+    <link rel="stylesheet" href="ticketschildstyle.css">
+    <link rel="icon" href="./turtle01.png" type="image/x-icon">
+</head>
+<body>
+    <div class="main08">
+        <!--This is where the Header Section starts for the Navigation bar-->
+            <div class ="contenttickets">
+                <h1>
+                 Details
+                </h1>
+            </div>
+        </div>
+        <section class="bookingbt">
+            <div class="bookingbtn">
+                <a href="ticketschildindex.html">Ticket(Dates)</a>  >
+                <a href="ticketschildindex.html" class="active">Details</a>  >
+                <a href="payementdetails.html" >Payment</a>  >
+                <a href="#">Confirmation</a>
+            </div>
+        </section>
+        <section class="ticketsection">
+            <div class="form">
+            <form action="" class="ticketform" id="detailsform">
+            <h1>Enter your Details</h1>
+            <p class="r003">Your details has to be entered to proceed with the booking</p>
+            <!--Name of the User-->
+            <div class="pdetails">
+                <h3>Full Name</h3>
+                <p>Same as on your ID</p>
+                <input type="text" id="nameInput" placeholder="Enter your name">
+              </div>
+            <!--Gender of the User-->
+            <div class="pdetails">
+                <h3>Gender</h3>
+                <p>Select your Gender</p>
+                <select name="gtype" id="genderInput">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="null">Not Specified</option>
+                </select>
+                <br>
+                <br>
+                <br>
+            </div>
+            <!--Mobile number of the User-->
+            <div class="pdetails">
+            </div>
+            <!--Contact Number Dropdownlist-->
+            <div class="pdetials">
+                <h3>Mobile Number</h3>
+                <p>We may reach out for booking updates here over SMS/Whatsapp</p>
+            <div class="select-box">
+                <div class="selected-option">
+                    <div>
+                        <!--Flag and Country Code-->
+                        <strong>+94</strong>
+                    </div>
+                    <input type="tel" name="tel" placeholder="Phone Number" required>
+                </div>
+                <div class="options">
+                    <input type="text" class="search-box" placeholder="Search Country Name">
+                    <ol>
+
+                    </ol>
+                </div>
+            </div>
+            </div>
+            
+            <!--Contact Number Dropdownlist-->
+            <!--Email of the User-->
+            <div class="pdetails">
+                <h3>Email</h3>
+                <p>We'll send your tickets here</p>
+                <input type="email" id="emailInput" maxlength="200" required placeholder="Enter your Email">
+              </div>
+              
+              <!--Confirmation of the User-->
+              <div class="pdetails">
+                <h3>Confirm Email</h3>
+                <p>Just to ensure we've got this right</p>
+                <input type="email" id="confirmEmailInput" maxlength="200" required placeholder="Re-Enter your Email">
+              </div>
+            
+              <div class="confirmbtn">
+                <a href="payementdetails.html"><button id="submitButton" disabled>Confirm Details</button></a>
+              </div>
+             
+</div>
+
+        </form>
+    </div>
+        </section>
+        <section class="ticketsection">
+            <table class="ticketstable" border="1px">
+                <Caption>Summary Table</Caption>
+                <tr>
+                    <th>Full Name</th>
+                    <td id="fullNameCell"></td>
+                  </tr>
+                <tr>
+                    <th>
+                        Gender
+                    </th>
+                    <td>
+                        Male
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Contact Number
+                    </th>
+                    <td>
+                        +94776992735
+                    </td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td id="emailCell"></td>
+                </tr>
+            </table>
+        </section>
+        <section class="ticketsection">
+        </section>
+        <footer>
+            <div class="turtlefeet">
+                <h3>
+                    <img src="Untitled design-21.png" alt="Logo" class="slogo"><br>
+                    Live . Discover . Relive
+                </h3>
+                <p>
+                    The island's sea turtle hatcheries work to preserve endangered turtle species. 
+                    We want to make our neighborhood Turtle Hatcheries accessible to everyone 
+                    who want to pause and appreciate what nature has to offer.
+                </p>
+            </div>
+            <div class="slogos">
+                <a href="https://www.instagram.com/ahazfernando/" target="_blank"><img src="Instagram01.png" alt="Instagram Logo"></a>
+                <a href="mailto:ahazfernando@gmail.com" target="_blank"><img src="Email01.png" alt="Email Logo"></a>
+                <a href="https://youtu.be/rJhtH0USo0E" target="_blank"><img src="youtube01.png" alt="Youtube Logo"></a>
+            </div>
+            <div class="turttoes">
+            <p>Copyright &copy;2023 Designed by Ahaz Fernando <span> the Island Boy</span></p>
+            </div>
+        </footer>
+        <script src="ticketsschildjs.js"></script>
+</body>
+</html>

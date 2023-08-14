@@ -1,0 +1,274 @@
+:root
+{
+    --primary: #111;
+}
+.pdetials br
+{
+    margin-top: 20px;
+}
+.ticketsection
+{
+    display: inline-block;
+}
+.ticketsection form
+{
+    margin-left: 200px;
+}
+.bookingbtn
+{
+    margin-top: 40px;
+    background: rgb(255, 191, 0);
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 40%;
+    padding: 20px;
+}
+.bookingbtn a
+{
+    text-decoration: none;
+    color: gray;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #111;
+}
+.bookingbtn .active
+{
+    color: blue;
+}
+/*Confirm details form*/
+.form {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #111;
+    background-color: green;
+  }
+  
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+/*Detail Text Boxes*/
+.pdetails
+{
+    justify-content: center;
+}
+.pdetails h3
+{
+    margin-top: 20px;
+}
+.pdetails p
+{
+    margin-bottom: 10px;
+}
+.pdetails input[type=text] {
+    margin: 8px 0;
+    width: 200px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    margin-bottom: 30px;
+    color: gray;
+}
+  @media screen and (max-width:610px)
+{
+    .select-box
+    {
+        position: relative;
+        width: 16rem;
+        margin: 2rem 4rem;
+    }
+}
+.select-box
+{
+    width: 26rem;
+    margin: 2rem auto;
+    position: relative;
+}
+.select-box input /*Search Box*/
+{
+    padding: 1rem .6rem;
+    width: 100%;
+    outline: none;
+    font-size: 1.1rem;
+    border-radius: 25px;
+}
+input[type="text"]
+{
+    border-radius: 0 .8rem .8rem 0;
+}
+.selected-option
+{
+    border-radius: .8rem;
+    background-color: #eee;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.selected-option div
+{
+    text-align: center;
+    position:relative;
+    cursor: pointer; 
+    width: 6rem;
+    padding: 0 2.8rem 0 .5rem;
+}
+.selected-option div.active::after
+{
+    transform: translateY(-50%) rotate(225deg);
+} /*Arrow Animations*/
+.selected-option div::after
+{
+    transition: .5s;
+    top: 50%;
+    position: absolute;
+    content: "";/*shows the apperance of the arrows*/
+    transform: translateY(-50%) rotate(45deg);
+    right: .8rem;
+    width: .8rem;
+    height: .8rem;
+    border-right: .18rem solid blue;
+    border-bottom: .18rem solid red;
+}
+.select-box .options
+{
+    position: absolute;
+    background-color: whitesmoke;
+    border-radius: .5rem;
+    width: 100%;
+    display: none;
+}
+.select-box .options.active
+{
+    display: block;
+}
+.select-box .options::before
+{
+    border-bottom-color: var(--primary);
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border: .6rem solid transparent;
+    top: -1.2rem;
+    left: 1rem;
+}
+input.search-box
+{
+    background-color:white;
+    color: black;
+    border-top-left-radius: .8rem;
+    padding: 1.4rem 1rem;
+    border: #fff solid 1px;
+}
+.select-box ol
+{
+    list-style: none;
+    overflow: overlay;
+    max-height: 20rem;
+}
+.select-box ol::-webkit-scrollbar
+{
+    width: 0.5rem;
+}
+.select-box::-webkit-scrollbar-thumb
+{
+    width: 0.4rem;
+    height: 3rem;
+    background-color: #ccc;
+    border-radius: .5rem;
+}
+.select-box ol li
+{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.select-box ol li.hide
+{
+    display: none;
+}
+.select-boxol li:not(:last-child)
+{
+    border-bottom: .1rem solid #eee;
+}
+.select-box li:hover
+{
+    background-color: rgb(255, 204, 0);
+}
+.select-box ol li .country-name
+{
+    margin-left: 1rem;
+}
+
+
+.confirmbtn
+{
+    margin-top: 20px;
+}
+.confirmbtn a
+{
+    color: #fff;
+    text-decoration: none;
+    background: green;
+    border-radius: 25px;
+    padding: 10px;
+    width: 20px;
+}
+.ticketstable
+{
+    border: 1px solid black;
+    margin-top: -300%;
+    margin-left: 150%;
+}
+.ticketstable caption
+{
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 20px;
+}
+.ticketsection fieldset
+{
+    border-radius: 25px;
+    box-shadow: 0px 8px 17px 3px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+}
+/*Responsive CSS*/
+@media screen and (max-width:610px)
+{
+    .ticketsection h1
+    {
+        width: 60%;
+    }
+    .ticketsection .r003
+    {
+        width: 70%;
+    }
+    .ticketsection form
+    {
+    margin-left: 30px;
+    }
+    .ticketsection div
+    {
+        margin-top: -2px;
+        width: 60%;
+    
+    }
+    .ticketstable
+    {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 10px;
+    }
+}

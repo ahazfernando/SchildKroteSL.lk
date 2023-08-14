@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book your Ticket/Personal Details</title>
+    <link rel="stylesheet" href="HomePageStyle01.css" type="text/css">
+    <link rel="stylesheet" href="ticketsbooking.css" type="text/css">
+    <link rel="icon" href="./turtle01.png" type="image/x-icon">
+    <link rel="stylesheet" href="ticketschildindex.html">
+</head>
+
+<body >
+    <div class="main08">
+        <!--This is where the Header Section starts for the Navigation bar-->
+            <div class ="contenttickets">
+                <h1>
+                 Details
+                </h1>
+            </div>
+        </div>
+    </div>
+    <section class="ticketsection">
+        <div class="bookingbtn">
+            <a href="ticketsbooking.html" class="active">Ticket(Dates)</a>  >
+            <a href="#">Details</a>  >
+            <a href="#" >Payment</a>  >
+            <a href="#">Confirmation</a>
+        </div>
+    </section class="ticketsection">
+    <!--This is where the Table Section starts for the Navigation bar-->
+    <section class="ticketsection">
+        <table class="summarydetails" border="1px">
+            <tr>
+                <th>
+                    Date
+                </th>
+                <td>
+                   <label id="datebooking"></label>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Time
+                </th>
+                <td>
+                    <label id="timebooking"></label>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Duration
+                </th>
+                <td>
+                    <label id="dbooking"></label>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Tickets
+                </th>
+                <th>
+                    Charges
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <label id="sladult"></label> SL Adult
+                </th>
+
+                <td>
+                    <span class="a"></span>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label id="slchild"></label> SL Child
+                </th>
+                <td>
+                    <span class="ab"></span>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label id="fadult"></label> Foreign Adult
+                </th>
+                <td>
+                    <span class="abc"></span>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label id="fchild"></label> Foreign Child
+                </th>
+                <td>
+                    <span class="abcd"></span>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label id="infant"></label> Infant
+                </th>
+                <td>
+                    Free
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Total Payable
+                </th>
+                <td>
+                    <label id="totalbook"></label>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <!--This is where the Calendar starts for the Navigation bar-->
+    <section class="ticketsection">
+    <h1>Select your Dates</h1>
+    <div class="calendar">
+        <div class="header">
+          <button id="prevBtn">&lt;</button>
+          <h2 id="monthYear"></h2>
+          <button id="nextBtn">&gt;</button>
+        </div>
+        <div class="days">
+          <div>Sun</div>
+          <div>Mon</div>
+          <div>Tue</div>
+          <div>Wed</div>
+          <div>Thu</div>
+          <div>Fri</div>
+          <div>Sat</div>
+        </div>
+        <div class="dates"></div>
+      </div>
+ <!--This is where the Button starts for the Navigation bar-->
+<section class="tickecktbooking">
+    <h2>Guests</h2>
+    <p class="acbook1">Tickets likely to sell fast</p>
+    <div class="acbook">
+        <h3>SL Adult</h3>
+        <p>Above 15 years</p>
+        <div class="wrapper">
+            <span class="minus">-</span>
+            <span class="num">01</span>
+            <span class="plus">+</span>
+        </div>
+    </div>
+    <div class="acbook">
+        <h3>SL Child</h3>
+        <p>15 - 4 years</p>
+        <div class="wrapper">
+            <span class="minusb">-</span>
+            <span class="numb">01</span>
+            <span class="plusb">+</span>
+        </div>
+    </div>
+    <div class="acbook">
+        <h3>Foreign Adult</h3>
+        <p>Above 15 years</p>
+        <div class="wrapper">
+            <span class="minusc">-</span>
+            <span class="numc">01</span>
+            <span class="plusc">+</span>
+        </div>
+    </div>
+    <div class="acbook">
+        <h3>Foreign Child</h3>
+        <p>15 - 4 years</p>
+        <div class="wrapper">
+            <span class="minusd">-</span>
+            <span class="numd">01</span>
+            <span class="plusd">+</span>
+        </div>
+    </div>
+    <div class="acbook">
+        <h3>Infant</h3>
+        <p>Below 4 years</p>
+        <div class="wrapper">
+            <span class="minuse">-</span>
+            <span class="nume">01</span>
+            <span class="pluse">+</span>
+        </div>
+    </div>
+ <!--This is where the Dropdown list starts for the Navigation bar-->
+    <h2>Duration</h2>
+    <p>Select the Duration you want to book the ticket</p>
+    <select name="" id="" class="tiduration" required>
+        <option value="seven">7:00 am - 8:00am</option>
+        <option value="eight">8:00 am - 9:00am</option>
+        <option value="eight">9:00 am - 10:00am</option>
+        <option value="eight">10:00am - 11:00am (Peak Hours)</option>
+        <option value="eight">11:00 am - 12:00pm (Peak Hours)</option>
+        <option value="eight">12:00 pm - 1:00pm (Peak Hours)</option>
+        <option value="eight">1:00 pm - 2:00pm (Peak Hours)</option>
+        <option value="eight">2:00 pm - 3:00pm (Peak Hours)</option>
+        <option value="eight">3:00 pm - 4:00pm (Peak Hours)</option>
+        <option value="eight">4:00 pm - 5:00pm (Peak Hours)</option>
+        <option value="eight">5:00 pm - 6:00pm (Peak Hours)</option>
+    </select>
+</section>
+<section class="ticketbooking">
+    <div class="confirmbtn">
+        <a href="ticketschildindex.html"><input type="submit" value="Continue to Purchase"></a>
+    </div>
+</div>
+</section>
+        </section>
+        <footer>
+            <div class="turtlefeet">
+                <h3>
+                    <img src="Untitled design-21.png" alt="Logo" class="slogo"><br>
+                    Live . Discover . Relive
+                </h3>
+                <p>
+                    The island's sea turtle hatcheries work to preserve endangered turtle species. 
+                    We want to make our neighborhood Turtle Hatcheries accessible to everyone 
+                    who want to pause and appreciate what nature has to offer.
+                </p>
+            </div>
+            <div class="slogos">
+                <a href="https://www.instagram.com/ahazfernando/" target="_blank"><img src="Instagram01.png" alt="Instagram Logo"></a>
+                <a href="mailto:ahazfernando@gmail.com" target="_blank"><img src="Email01.png" alt="Email Logo"></a>
+                <a href="https://youtu.be/rJhtH0USo0E" target="_blank"><img src="youtube01.png" alt="Youtube Logo"></a>
+            </div>
+            <div class="turttoes">
+            <p>Copyright &copy;2023 Designed by Ahaz Fernando <span> the Island Boy</span></p>
+            </div>
+        </footer>
+        <script src="ticketbooking.js"></script>
+</body>
+</html>
